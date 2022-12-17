@@ -28,7 +28,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final List<String> _performers = ['カベポスター', '真空ジェシカ', 'キュウ', 'ヨネダ2000', 'ダイヤモンド', 'ウエストランド', 'さや香', 'ロングコートダディ' , '男性ブランコ'];
+  final List<String> _performers = ['カベポスター', '真空ジェシカ', 'キュウ', 'ヨネダ2000', 'ダイヤモンド', 'ウエストランド', 'さや香', 'ロングコートダディ' , '男性ブランコ', '敗者復活'];
   late Map<String, int> _scores;
   // 表示順を並び替えるために使用するキーのリスト
   List<String> _scoreKeys = [];
